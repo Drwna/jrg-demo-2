@@ -1,0 +1,16 @@
+.demo {
+    position: absolute;
+    /* 绝对定位会脱离body */
+    left: 0;
+    top: 0;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    background: brown;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
